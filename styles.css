@@ -1,0 +1,34 @@
+
+:root{
+  --brand-start:#7b2ff7;
+  --brand-end:#f107a3;
+}
+html{scroll-behavior:smooth;}
+.backdrop-blur{backdrop-filter: blur(6px);}
+
+.hero-section{
+  min-height: 100vh;
+  background: radial-gradient(1200px 600px at 50% -10%, rgba(123,47,247,.35), transparent),
+              radial-gradient(800px 400px at -10% 10%, rgba(241,7,163,.25), transparent),
+              #0c0c10;
+  position: relative;
+  padding-top: 5rem;
+}
+.hero-mark{width:96px;height:96px;opacity:.9;}
+
+.brand{background: linear-gradient(45deg,var(--brand-start),var(--brand-end));-webkit-background-clip:text;background-clip:text;color:transparent;}
+.btn-gradient{
+  background: linear-gradient(45deg,var(--brand-start), var(--brand-end));
+  border: none;
+  color: #fff;
+}
+.btn-gradient:hover{filter: brightness(1.05); color:#fff;}
+
+.section-padding{padding: 5rem 0;}
+.section-title{letter-spacing:.08em; font-weight:700;}
+
+.schedule-card{background: #fff; border:1px solid rgba(0,0,0,.06);}
+.speaker-card img{aspect-ratio:1/1; object-fit:cover;}
+.contact-card{background:#fff; border:1px solid rgba(0,0,0,.06);}
+
+footer{background:#fafafa;}
